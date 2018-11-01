@@ -1,28 +1,21 @@
 class circle {
-  float X;
-  float Y;
-  float R;
-  color Color;
-  float angle;
+  float circX;
+  float circY;
+  float circR;
+  color circColor;
   circle(float x, float y, float r, color colors) {
-    X=x;
-    Y=y;
-    R=r;
-    Color=colors;
+    circX=x;
+    circY=y;
+    circR=r;
+    circColor=colors;
   }
   void display() {
-    fill(Color);
-    ellipse(X, Y, R, R);
+    fill(circColor);
+    ellipse(circX, circY, circR, circR);
   }
-
-  void orbit(float a, float b, float l, float inc) {
-    X=a+l*cos(angle);
-    Y=b+l*sin(angle);
-    angle=angle+inc;
-  }
-
+  
   //void moreCircles(){
-
-
+  
+    
   //}
 }
