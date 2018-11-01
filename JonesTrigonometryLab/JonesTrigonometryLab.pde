@@ -8,6 +8,7 @@ void setup() {
   Sun = new circle(width/2,height/2,100,color(255,255,0));
   Earth=new circle(width/2+400,height/2,40,color(0,255,0));
   Moon=new circle(width/2+190,height/2,10,color(255));
+  Moon=new circle(Earth.X+20,Earth.Y,10,color(255));
 }
 
 void draw() {
