@@ -11,4 +11,4 @@
 //  updatePixels();
   
 //}
-//so we haev the center of the unit circle. I don't know how to represent that. Oh wait, that's a and b.
+//so we have the center of the unit circle. I don't know how to represent that. Oh wait, that's a and b. so, a and b is the center of the sun, and a+r*cos(angle) is the x of the center of the earth and b+r*sin(angle) is the y of the cetner of the earth.
